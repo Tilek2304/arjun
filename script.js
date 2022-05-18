@@ -13,7 +13,7 @@ document.querySelectorAll('.course-block-div h1').forEach((el) => {
     })
 })
 
-const forms = document.querySelectorAll('form');
+const forms = document.querySelectorAll('form'){
 const message = {
     loading: 'images/spinner.svg',
     success: 'Спасибо! Скоро мы с вами свяжемся',
@@ -23,7 +23,7 @@ const message = {
 forms.forEach(item => {
     postData(item);
 });
-
+};
 function postData(form) {
     form.addEventListener('submit', (e) => {
         e.preventDefault();
